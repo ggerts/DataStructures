@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //			testGenome();
-        //			testPopulation();
+        //testGenome();
+        //testPopulation();
         long startTime = System.nanoTime();
         Population p = new Population(100, .05);
         while (p.mostFit.fitness() != 0) {
